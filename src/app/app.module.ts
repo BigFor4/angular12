@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { Routes, RouterModule } from '@angular/router';
 
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -46,7 +46,8 @@ import { MainpageComponent } from './mainpage/mainpage.component';
     MatSidenavModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatSliderModule
+    MatSliderModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

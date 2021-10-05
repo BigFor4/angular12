@@ -1,98 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My CV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-</head>
-<style>
-    .gioithieu {
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .icon {
-        font-size: 15px;
-        margin-top: -10px;
-        color: rgba(10, 46, 124, 0.849);
-    }
-
-    .lech-trai {
-        margin-left: 45px;
-        font-size: 15px;
-    }
-
-    .tieude-1 {
-        margin-top: 150px;
-        margin-left: -20px;
-    }
-
-    .tieude-2 {
-        margin-top: 320px;
-        margin-left: -20px;
-    }
-
-    .icon-tieude {
-        font-size: 20px;
-    }
-
-    .icon-bg {
-        width: 40px;
-        height: 40px;
-        background-color: #e56e72;
-        border-radius: 100px;
-        position: absolute;
-        margin-top: -40px;
-        margin-left: 140px;
-    }
-
-    .icon-bg-1 {
-
-        background-color: #7e30a5;
-    }
-
-    .icon-bg-2 {
-
-        background-color: #2783cf;
-    }
-
-
-    #containecc {
-
-        width: 500px;
-
-        height: 500px;
-
-    }
-
-    .container1 {
-        position: absolute;
-        top: 10px;
-    }
-
-    .gioithieu-left {
-        position: absolute;
-        top: 25%;
-        left: 100px;
-    }
-
-    .gioithieu-right {
-        position: absolute;
-        top: 25%;
-        right: 100px;
-    }
-
-
-
-</style>
-
-<body>
     <div class="container">
         <div class="row">
 
@@ -162,7 +72,7 @@
                     <div class="col-8" style=" margin-left: 15px; position: absolute; margin-left: 180px;">
                         <h1 style="margin-top: 60px; text-transform: uppercase; font-size: 20px;">Nguyễn Hải Đăng
                             <button
-                        class="btn btn-primary" style="margin-left: 5px; margin-top: -3px;" type="button" (click) = "login()">Login</button>
+                        class="btn btn-primary" style="margin-left: 5px; margin-top: -3px;" type="submit" (click) = "login()">Login</button>
                         
                         </h1>
                         <p style="font-size: 15px; text-transform: uppercase;">Lập trính viên</p>
@@ -232,6 +142,6 @@
         </div>
 
     </div>
-</body>
-
-</html>
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
