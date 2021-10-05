@@ -21,6 +21,7 @@ import { LoginComponent } from './login/login.component';
 import { PagenotfountComponent } from './pagenotfount/pagenotfount.component';
 import { KhoahocComponent } from './khoahoc/khoahoc.component';
 import { KiemtraComponent } from './kiemtra/kiemtra.component';
+import { MainpageComponent } from './mainpage/mainpage.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { KiemtraComponent } from './kiemtra/kiemtra.component';
     LoginComponent,
     PagenotfountComponent,
     KhoahocComponent,
-    KiemtraComponent
+    KiemtraComponent,
+    MainpageComponent
   ],
   imports: [
     BrowserModule,

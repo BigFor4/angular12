@@ -1,10 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
 
-html {
-  min-height: 100%;
-}
 
-body {
+.body-pagenotfount {
   box-sizing: border-box;
   height: 100%;
   background-color: #000000;
@@ -13,10 +10,10 @@ body {
   background-size: cover;
   font-family: 'Inconsolata', Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: rgba(128, 255, 128, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-shadow:
-      0 0 1ex rgba(51, 255, 51, 1),
-      0 0 2px rgba(255, 255, 255, 0.8);
+      0 0 1ex rgb(33, 51, 33),
+      0 0 2px rgba(34, 31, 31, 0.8);
 }
 
 .noise {
@@ -82,19 +79,15 @@ body {
   padding: 4rem;
   text-transform: uppercase;
 }
-
 .output {
-  color: rgba(128, 255, 128, 0.8);
+  color: rgba(22, 24, 22, 0.8);
   text-shadow:
-      0 0 1px rgba(51, 255, 51, 0.4),
+      0 0 1px rgba(40, 41, 40, 0.4),
       0 0 2px rgba(255, 255, 255, 0.8);
 }
-
 .output::before {
   content: "> ";
 }
-
-
 
 .errorcode {
   color: white;
